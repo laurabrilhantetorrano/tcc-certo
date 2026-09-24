@@ -1,0 +1,21 @@
+# ==========================================
+# Variáveis de Ambiente - Exemplo (.env.example)
+# Copie este arquivo para .env e ajuste os valores conforme o ambiente
+# ==========================================
+
+# Configuração da Porta do Backend
+PORT=5000
+NODE_ENV=development
+
+# Conexão com o Banco de Dados MongoDB
+# Para MongoDB local padrão:
+MONGODB_URI=mongodb://localhost:27017/nana_e_mimi
+# Para MongoDB Atlas / Remoto (exemplo):
+# MONGODB_URI=mongodb+srv://<usuario>:<senha>@cluster0.exemplo.mongodb.net/nana_e_mimi?retryWrites=true&w=majority
+
+# Autenticação e Criptografia
+JWT_SECRET=sua_chave_secreta_jwt_para_tokens_troque_em_producao
+JWT_EXPIRES_IN=7d
+
+# Origem permitida para CORS (Frontend Vite)
+CLIENT_URL=http://localhost:5173
