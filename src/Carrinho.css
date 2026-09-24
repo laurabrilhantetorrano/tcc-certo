@@ -1,0 +1,109 @@
+.carrinho-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: sans-serif;
+}
+
+.carrinho-header-pagina {
+  margin-bottom: 30px;
+}
+
+.btn-voltar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.carrinho-conteudo {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.carrinho-lista {
+  flex: 2;
+  min-width: 300px;
+}
+
+.carrinho-item-pagina {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.carrinho-item-pagina img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.info-item {
+  flex: 1;
+}
+
+.info-item h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+
+.preco-item {
+  font-weight: bold;
+  margin: 0 0 5px 0;
+}
+
+.btn-remover {
+  background: none;
+  border: none;
+  color: #ff4d4f;
+  cursor: pointer;
+}
+
+.carrinho-resumo {
+  flex: 1;
+  min-width: 280px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.carrinho-resumo h2 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.linha-resumo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.linha-resumo.total {
+  font-size: 18px;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+  margin-top: 12px;
+}
+
+.btn-finalizar {
+  width: 100%;
+  padding: 14px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}   
