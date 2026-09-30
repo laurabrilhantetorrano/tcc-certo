@@ -11,7 +11,7 @@ NODE_ENV=development
 # Para MongoDB local padrão:
 MONGODB_URI=mongodb://localhost:27017/nana_e_mimi
 # Para MongoDB Atlas / Remoto (exemplo):
-# MONGODB_URI=mongodb+srv://<usuario>:<senha>@cluster0.exemplo.mongodb.net/nana_e_mimi?retryWrites=true&w=majority
+# MONGODB_URI=mongodb+srv://37241_db_user:123@cluster0.2auzkkd.mongodb.net/?appName=Cluster0
 
 # Autenticação e Criptografia
 JWT_SECRET=sua_chave_secreta_jwt_para_tokens_troque_em_producao
